@@ -1,0 +1,231 @@
+* {margin: 0; padding: 0; font-family: 'Kameron', serif;}
+a {text-decoration: none;}
+ul {list-style: none;}
+p, h1, h2 {color: white;}
+
+.a_galeriahome {text-decoration: none;}
+.boton_contactohome {
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.color {
+    background-color: black;
+}
+
+.impact{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.inconsolata{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+.font_color {
+    color: black;
+}
+
+.red{
+    color: #A20C14;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.red_in{
+    color: #A20C14;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+iframe{
+    height: 80vh;
+}
+
+
+.navegacion{
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tecnicas{
+    background-image: url(../img/fondo_tecnicas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.masartistas{
+    background-image: url(../img/fondo_artistas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeriahome {
+    background-image: url(../img/galeria_home_color.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galeriahometext {
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+.hero_vanguardia{
+    background-image: url(../img/hero_vanguardia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filter{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 0.2s linear ;
+    overflow: hidden;}
+
+    .filter:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);
+        object-fit: cover;
+    }
+
+.info{
+    color: white;
+}
+
+.literatura{
+    background-image: url(../img/fondo_literatura.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.artegrafica{
+    background-image: url(../img/fondo_artegrafica.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.musica{
+    background-image: url(../img/fondo_musica.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contacto{
+    background-image: url(../img/fondo_contacto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.contacto_info{
+    font-size: large;
+}
+
+.campo{
+   border: 0px white;
+   background-color: black;
+   color: white;
+}
+
+.boton{
+    border-radius: 5px;
+    border: 0px;
+    background-color: #A20C14;
+    color: white;
+    transition: all 0.2s linear ;
+ }
+
+    .boton:hover{
+        border-radius: 15px;
+        background-color: #66090d;
+     }
+
+
+
+.card-img1{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 0.2s linear ;
+    overflow: hidden;}
+
+    .card-img1:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);
+        transform: scale(1.1);
+        object-fit: cover;
+    }
+
+
+.info_obras{
+    width: 40%;
+}
+
+.info_obra1{
+    display: none;
+}
+
+.info_obra2{
+    display: none;
+}
+
+.obra_h1:hover{
+    opacity: 0.1;
+}
+
+
+#bg_footer{
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anim{
+    overflow: hidden;
+    position: relative;
+}
+
+.anim:hover .animtext{
+    display: block;
+}
+
+.anim_ac{
+    transition: all 0.5s ease;
+}
+
+.anim_ac:hover{
+    opacity: 0.2;
+    transform: scale(1.1);
+}
+
+.animtext{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    display: none;
+    font-size: medium;
+    transition: all 0.5s ease;
+    width: 90%;
+}
+

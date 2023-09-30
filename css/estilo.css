@@ -6,10 +6,9 @@ p, h1, h2 {color: white;}
 .a_galeriahome {text-decoration: none;}
 .boton_contactohome {
     padding: 10px;
-    width: 40%;
     border-radius: 5px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .color {
